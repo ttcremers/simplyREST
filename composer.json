@@ -1,0 +1,16 @@
+{
+    "name": "com.vicinitysoftware/simpyrest",
+    "description": "Light weight REST router",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas T. Cremers",
+            "email": "info@vicinitysoftware.com"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "beta",
+    "require": {},
+    "require-dev": {
+    }
+}
