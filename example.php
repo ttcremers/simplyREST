@@ -1,6 +1,8 @@
 <?php
 /**
  * An example REST controller/resource
+ * Checkout the comments and the examples
+ * they tell you all you need to know
  */
 
 /**
@@ -29,6 +31,7 @@ $auth_callback = function() {
 $before_filters = array(
     // lets reference a the get_index action
     "get_auth" => array($auth_callback));
+
 
 /**
  * As expected index is the default

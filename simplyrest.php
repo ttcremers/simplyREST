@@ -1,6 +1,6 @@
 <?php 
 /**
- * SimplyREST is a simple self routing php RESTful controller
+ * SimplyREST is a lightweight php REST routing script 
  *
  * It's ment to be used as simple rest based server. It's 
  * supports all HTTP methods and has helpers for generating
