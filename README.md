@@ -10,14 +10,13 @@ At the moment simplyREST is use as a backend for an EmberJS single page web appl
 SimplyREST is Memcache ready which means it will cache route configuration in Memcache so it doesn't have to go through the php tokenizer on each request. To enable Memcache support it expects Memcache to be loaded in $memcache (a pretty sane asumption).
 To keep the requests as small as possible the responses served are gziped.
 
-## Install
-==========
-Clone or download this repository and put it some place nice 
+Install
+=======
+Clone or download this repository and put it in a nice place.
 
-## Usage
-========
+Usage
+=====
 When starting up I suggest just using the PHP build in HTTP server.
-
 ``` 
 php -S 0.0.0.0:4000 simplyrest.php
 ```
@@ -40,7 +39,6 @@ For convienence SimplyREST has Composer setup and ready to use. SimplyREST itsel
 Which brings us to...
 
 ## Controllers (or resources)
-
 As stated earlier SimplyREST prefers convention over configuration. This means you should have very little configuring to do to get you started coding, infact SimplyREST only has one config option which is the path relative to the document root you want to run your api under. The default is the document root itself and in most cases this should be just fine. However you van change it by editing the folowing line in `simplyrest.php`
 
 ```php
@@ -64,8 +62,8 @@ http://0.0.0.0:4000/example
 ```
 Look how friendly it greets you! Now go on and open up example.php. You'll find enough examples with plenty of documentation. If you're planning on adding authentication to your API be sure to check out the before_filter example. 
 
-## Conclusion
-=============
+Conclusion
+==========
 SimplyREST certainly isn't a full blown PHP REST server, but then again it doesn't want to be. A lot of the time we only need a small subset and we're stuck with a big bulky framework. SimpyREST is really ment to help out with single page apps and does this very well. If you're looking for something that will support your already exsisting big and complicated data set filled with nested resources (relations) then SimplyREST probably isn't for you. 
 
 On the otherhand, if you're looking for something that will support your CMS based on EmberJS or something along those lines then you might want to try out SimplyREST.
