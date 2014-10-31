@@ -68,4 +68,6 @@ SimplyREST certainly isn't a full blown PHP REST server, but then again it doesn
 
 On the otherhand, if you're looking for something that will support your CMS based on EmberJS or something along those lines then you might want to try out SimplyREST.
 
-Thomas Cremers http://vicinitysoftware.com
+
+Thomas Cremers is a freelance ([software developer at http://vicinitysoftware.com](http://vicinitysoftware.com))
+
